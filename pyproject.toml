@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arroyo-pi"
+version = "0.1.0"
+description = "Arroyo Asthenocoria Meter — pupillography on Raspberry Pi / Jetson Orin Nano"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.20",
+    "opencv-python-headless>=4.5",
+]
+
+[project.optional-dependencies]
+gui = ["opencv-python>=4.5"]
+plot = ["matplotlib>=3.4"]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+arroyopi = "arroyopi.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
