@@ -20,16 +20,15 @@ arroyo-visionos — same algorithm, no Apple platform restrictions.
 - [x] 25 unit tests — all pass (synthetic pupillograms, all grades, edge cases)
 - [x] Hardware bill of materials and setup guide (hardware/README.md)
 - [x] 4 generated PDF figures (pupillograms, escape detection, architecture, grading)
-- [x] LaTeX research paper with 31 grounded citations (in progress via subagent)
+- [x] LaTeX research paper — 13 pages, 31 grounded citations, compiled to PDF
 - [x] pyproject.toml, README.md, .gitignore
 - [x] Project_state.md
+- [x] Git init + commit (15f3fb8) + GitHub repo + push to main
 
 ### In Progress
-- [ ] LaTeX paper compilation (subagent: sa-0-594ded79)
+- [ ] Nothing mid-flight
 
 ### Not Started
-- [ ] Git init + first commit
-- [ ] GitHub repo creation + push
 - [ ] Live camera testing with actual IR LED hardware
 - [ ] 3D-printable camera mount STL
 
